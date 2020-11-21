@@ -1,0 +1,96 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+/* nabbar */
+.bg-light  
+{
+    background: #130f40 !important;
+}
+.logo 
+{
+    border:1px solid #FCBF49;
+    padding: 0;
+    padding: 4px 8px;
+    background-color: #fcbf49;
+    color:#130f40;
+    font-size: 15px;
+    border-bottom:3px solid #fff
+}
+ 
+.navbar-light ,.navbar-light .navbar-nav .nav-link
+{
+    color:#efefef;
+    font-size: 15px;
+}
+ 
+.navbar-light:hover
+{
+    color:#efefef;
+}
+.nav-link-hover:hover
+{
+    color:#efefee !important;
+    border-bottom:1px solid #FCBF49;
+}
+.download-resume-btn
+{
+    border-bottom:3px solid #fff
+}
+.download-resume-btn:hover 
+{
+    transition: ease-in .4s;
+    color:#efefee !important;
+    border-color: #FCBF49;
+}
+.nav-icon 
+{
+    color:#FCBF49;;
+}
+ /* end navbar */
+ /* start intro */ 
+
+ .intro 
+ {
+     color:#fff
+ }
+ .intro .big-font-size {font-size: 70px;}
+
+.intro .btn-warning
+ {
+     background:#FCBF49
+ }
+ /* end intro */
+
+ /* start about */
+ .about .text 
+ {
+     line-height: 35px;
+     text-align: justify;
+ }
+ .about .my-line
+ {
+    content: "";
+    display: block;
+    position: relative;
+    top: -15px;
+    width: 200px;
+    height: 1px;
+    margin-left: 90px;
+    background-color: #151641;
+ }
+ .about .university-link
+ {
+    color: #151641;
+      text-decoration: none;
+ }
+ /* end about */
+
+ .section-title 
+ {
+    background: #151641;
+    padding: 4px;
+    color: #fcbf49;
+ }
