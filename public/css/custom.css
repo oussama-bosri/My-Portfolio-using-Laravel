@@ -17,7 +17,7 @@ body
     background-color: #fcbf49;
     color:#130f40;
     font-size: 15px;
-    border-bottom:3px solid #fff
+    border-bottom:6px solid #fff
 }
  
 .navbar-light ,.navbar-light .navbar-nav .nav-link
@@ -87,7 +87,7 @@ body
       text-decoration: none;
  }
  /* end about */
-
+ 
  .section-title 
  {
     background: #151641;

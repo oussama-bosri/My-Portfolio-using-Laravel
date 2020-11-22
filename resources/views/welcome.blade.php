@@ -13,7 +13,10 @@
         <!-- styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('css/custom.css')}}">
-  
+          <!-- slider -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        
+      <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
     </head>
     <body>
     <!-- Start Nabbar -->
@@ -95,10 +98,14 @@
 
                     Shortly after graduating from <a  target="_blank" class="university-link" href="http://www.siu-sd.com/">Sudan international University</a>, I joined the engineering team at valley where I work on building Apis and frontend staff.
                     </p>
+                    <p class="mt-4 text-right">
+                      it's Me 👉
+                    </p>
                 </div>
                 <div class="col-sm-4 image">
-                    <img   class="text-center  img-thumbnail" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
+                    <img width="280px"   class="text-center  img-thumbnail" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
                 </div>
+                
             </div>
          </div>
         </div>
@@ -106,15 +113,55 @@
             <!-- start  work-->
         <div class="work mt-5   p-2" style="background: #FCBF49">
             <div class=" p-4 container">
-                <div class="mb-3">
-                <span class="h3 text-center section-title">Work</span>
-                </div>
-                <p class="text-center">Below you can see some projects I've been working on lately. I divide each project into four follow-up areas: comprehensive research, wireframing, design & development. This process allows me to create great product with client goals in mind.</p>
+              <div class="mb-3">
+                <span class="h3 section-title">Work</span> 
             </div>
+                <p class="text-center">Below you can see some projects I've been working on lately. I divide each project into four follow-up areas: Requirements analysis,Ui Design , Development.Testing, This process allows me to create great product with client goals in mind.</p>
+                <div class="work-slider text-center mt-4">
+                  <div>
+                  <img class=" img-thumbnail" src="https://i.postimg.cc/SK8jfqrF/Screenshot-from-2020-11-20-19-28-38.png">
+                  </div>
+                   
+                    <div>
+                      <img class=" img-thumbnail" src="https://i.postimg.cc/rsqvYC2C/Screenshot-from-2020-11-22-21-16-50.png">
+                      </div>
+                      <div>
+                    
+                    <img class=" img-thumbnail" src="https://i.postimg.cc/7Y2v66Yk/Screenshot-from-2020-03-23-12-47-15.png">
+                    </div>
+                    <div>
+                      <img class=" img-thumbnail" src="https://i.postimg.cc/FFnmz8yj/Screenshot-from-2020-11-20-19-29-52.png">
+                      </div>
+                      <div>
+                        <img class=" img-thumbnail" src="https://i.postimg.cc/Rq5GDvtr/Screenshot-from-2020-11-22-21-32-23.png">
+                        </div>
+                      <div>
+                          <img class=" img-thumbnail" src="https://i.postimg.cc/3rpNMK5k/Screenshot-from-2020-11-22-21-14-19.png">
+                      </div>
+                      <div>
+                        <img class=" img-thumbnail" src="https://i.postimg.cc/pd2zrmvc/Screenshot-from-2020-11-22-21-20-40.png">
+                    </div>
+                    <div>
+                      <img class=" img-thumbnail" src="https://i.postimg.cc/jSTZ6dKP/Screenshot-from-2020-11-22-21-21-29.png">
+                   </div>
+                   <div>
+                    <img class=" img-thumbnail" src="https://i.postimg.cc/mgwfCnxZ/Screenshot-from-2020-11-22-21-33-00.png">
+                 </div>
+              </div>
+            
         </div>
          <!-- end  work-->
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $('.work-slider').slick({
+    autoplay: true,
+  autoplaySpeed: 4000,
+  });
+});
+</script>
 </html>
