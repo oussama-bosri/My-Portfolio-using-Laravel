@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+/* Start  Send Email */ 
+
+Route::get('/contact', 'EmailController@index');
+
+Route::post('/sendemail/send', 'EmailController@send');
+
+/* end  Send Email */ 

@@ -226,13 +226,28 @@
 
             <div class="row">
             <div class="offset-1 col-sm-6 mt-2"> 
-          <form >
-            <input type="text" class="form-control mt-3 mb-3" placeholder="Your name">
-            <input type="email" class="form-control mt-3 mb-3" placeholder="Your email">
-            <input type="phone" class="form-control mt-3 mb-3" placeholder="Your Phone [ optional ]">
-            <textarea rows="5" placeholder="Your Message" class="form-control"></textarea>
+          <form method="POST" action="{{url('sendemail/send')}}">
+            {{ csrf_field() }}
+            @if ($message = Session::get('success'))
+          <div class="alert alert-success alert-block">
+          <strong>{{ $message }}</strong>
+          </div>
+          @endif
+        <input type="text" value="{{old('name')}}"  name="name" class="form-control mt-3 mb-3" placeholder="Your Name">
+            <input type="email" value="{{old('email')}}" required name="email" class="form-control mt-3 mb-3" placeholder="Your Email">
+            <input type="phone" value="{{old('phone')}}"name="phone" class="form-control mt-3 mb-3" placeholder="Your Phone [ optional ]">
+            <textarea rows="5" required name="message" placeholder="Your Message" class="form-control">{{old('message')}}</textarea>
           <input type="submit" class="pl-3 pr-3 contact-me-submit-btn   btn btn-warning  " value="send">
-          </form>
+          @if (count($errors) > 0)
+          <div class="alert alert-danger">
+           <ul>
+          @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+          @endforeach
+          </ul>
+          </div>
+          @endif
+        </form>
         </div>
           <div class="col-sm-5 mt-2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713293.93630849!2d30.497535229524164!3d14.822685900281384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d91cc41072b195%3A0xd2bf70462a612b37!2sSudan!5e0!3m2!1sen!2s!4v1606239934774!5m2!1sen!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>          </div>
