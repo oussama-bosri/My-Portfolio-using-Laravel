@@ -18,6 +18,13 @@
           <!-- slider -->
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
         <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+
+         <!-- text animations. -->
+         <link rel="stylesheet" type="text/css" href="http://textillate.js.org/assets/animate.css">
+
+         <link href="https://animate.style/animate.min.css" rel="stylesheet">
+
+
       </head>
     <body>
     <!-- Start Nabbar -->
@@ -52,7 +59,7 @@
                   Contact</a>
               </li>
             <li class="nav-item ml-3 parent-download-resume-btn" >
-                <a class="nav-link download-resume-btn" href="#"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
+                <a class="nav-link download-resume-btn" href="https://pdfhost.io/v/Or1L7Kruf_Hussam_Adil_CV_Developer_0112400011pdf.pdf" target="_blank"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
                     My Resume</a>
               </li>
           </ul>
@@ -66,17 +73,17 @@
         <div class="container p-3">
         <div class="p-4 ml-4 ">
               <p>Hi, my name is</p>
-            <h4 class="big-font-size">Hussam Adil.</h4>
+            <h1 class="big-font-size" data-in-effect="rollIn">Hussam Adil.</h1>
             <div class="mt-4 p-1">
-                <span class="p-2 By-building">By building web applications Hope I can make the world better place for humans being 🙏 .</span>
+                <span class="p-2 By-building" data-aos="fade-right">By building web applications Hope I can make the world better place for humans being 🙏 .</span>
             </div>
             <div class="mt-4 p-1">
-                <p class="Im-an-full-stack">
+                <p class="Im-an-full-stack" data-aos="fade-up-right">
                   I'm an full stack Web developer, with Bachelor of business degree .
                   but I'm  more passion about a computer science in general and web technologies specifically ,from Khartoum, Sudan.  
                 </p>
             </div>
-              <div class="mt-3 p-1">
+              <div class="mt-3 p-1 wow bounceInUp"  >
                   <a href="#" class="contact-mebtn btn btn-warning">Contact Me</a>
               </div>
         </div>
@@ -91,7 +98,7 @@
                     <span class="h3 section-title">About</span> 
                 </div>
             <div class="row mt-4 ">
-                <div class=" offset-1 col-sm-7 text">
+                <div class=" offset-1 col-sm-7 text " >
                       <p>
                           Hello! I'm Hussam, a software developer based in Sudan 🇸🇩.
 
@@ -99,12 +106,12 @@
                       <p> 
                       My goal is to always build products that provide pixel-perfect, performant experiences.
 
-                      Shortly after graduating from <a  target="_blank" class="university-link" href="http://www.siu-sd.com/">Sudan international University</a>, I joined the engineering team at valley where I work on building Apis and frontend staff.
+                      I graduated from <a  target="_blank" class="university-link" href="http://www.siu-sd.com/">Sudan international University</a>.
                       </p>
                 </div>
                 <div class="col-sm-4 image text-center">
-                    <img  class="text-center  img-thumbnail" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
-                    <p class="mt-2 text-center   d-sm-block">
+                    <img  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="3s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
+                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInRight" data-wow-delay="3s">
                       it's Me 👆
                     </p>  
                   </div>
@@ -116,10 +123,10 @@
         <div class="work mt-2   p-2">
             <div class=" p-4 container">
               <div class="mb-3">
-                <span class="h3 section-title">Work</span> 
+                <span class="h3 section-title  "  >Work</span> 
             </div>
-            <p>Below you can see some projects I've been working on lately.</p>
-            <div class="work-slider text-center mt-4">
+            <p class=" wow animate__fadeInDown" data-wow-delay="1s">Below you can see some projects I've been working on lately.</p>
+            <div class="work-slider text-center mt-4 wow animate__fadeInUp" data-wow-delay="1s">
                   <div>
                     <img class="img-thumbnail" src="https://i.postimg.cc/SK8jfqrF/Screenshot-from-2020-11-20-19-28-38.png">
                  </div> 
@@ -160,8 +167,8 @@
             <div class="mb-3 mt-3">
               <span class="h3 section-title">Education</span>
           </div>
-              <div class="row">
-                <div class="col-sm-8 mt-3">
+              <div class="row" >
+                <div class="col-sm-8 mt-3"  >
                     <p>
                       On October 2017  I graduated from Sudan international university, faculty of  management information system, its combination between IT and management.
                     </p>
@@ -175,7 +182,7 @@
                       <i class=" fa fa-check-square"></i> CGPA : 3.48 out of 4.00
                     </span>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" >
                   <img class=" img-fluid" src="https://i.postimg.cc/Dz5THXwX/undraw-Graduation-ktn0-1.png">
                 </div>
               </div>
@@ -216,7 +223,7 @@
           <span class="h3 section-title">Contact Me</span>
           <p class="mt-3 "> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             <div class="row">
-            <div class="offset-1 col-sm-6 mt-2"> 
+            <div class="offset-1 col-sm-6 mt-2" ata-aos="zoom-out-right"> 
             <form method="POST" action="{{url('sendemail/send')}}">
                 {{ csrf_field() }}
                 @if ($message = Session::get('success'))
@@ -225,8 +232,8 @@
               </div>
               @endif
               <input type="text" value="{{old('name')}}"  name="name" class="form-control mt-3 mb-3" placeholder="Your Name">
-                <input type="email" value="{{old('email')}}" required name="email" class="form-control mt-3 mb-3" placeholder="Your Email">
-                <input type="phone" value="{{old('phone')}}"name="phone" class="form-control mt-3 mb-3" placeholder="Your Phone [ optional ]">
+                <input type="email" value="{{old('email')}}" required name="email" class="form-control mt-3 mb-3" placeholder="mail@mail.com">
+                <input type="phone" value="{{old('phone')}}"name="phone" class="form-control mt-3 mb-3" placeholder="249111111111">
                 <textarea rows="10" required name="message" placeholder="Your Message" class="form-control">{{old('message')}}</textarea>
               <input type="submit" class="pl-3 pr-3 contact-me-submit-btn   btn btn-warning  " value="send">
               @if (count($errors) > 0)
@@ -243,7 +250,7 @@
           <div class="col-sm-4 mt-2">
             <span>By scanning this QR-code you can contact me through Whatsapp directly. </span>
             <p class="mt-2 note"><i class="fa fa-info" ></i> Note :  Please using any QR-code scanning program. </p>
-            <img  class=" img-fluid" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
+            <img    class=" img-fluid" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
         </div>
       </div>
           <div class=" mt-4 ">
@@ -262,20 +269,20 @@
        <!-- start footer   -->
 
       <footer>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#130f40" fill-opacity="1" d="M0,64L26.7,106.7C53.3,149,107,235,160,272C213.3,309,267,299,320,266.7C373.3,235,427,181,480,160C533.3,139,587,149,640,149.3C693.3,149,747,139,800,144C853.3,149,907,171,960,186.7C1013.3,203,1067,213,1120,213.3C1173.3,213,1227,203,1280,181.3C1333.3,160,1387,128,1413,112L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
         </svg>      
-        <div class="my-footer text-center text-white">
-          <span>Designed and built with lots of love. <i class="fa fa-heart"></i></span>
+        <div class="my-footer text-center text-white" >
+          <span >Designed and built with lots of love. <i class="fa fa-heart"></i></span>
           <br><span>
-           <a target="_blank" class="social-media" href="https://www.facebook.com/hussam0683/">
+           <a  target="_blank" class="social-media" href="https://www.facebook.com/hussam0683/">
             <i class="fa fa-facebook"></i>
              </a> 
            
-             <a target="_blank" class="social-media" href="https://twitter.com/hussam0683">
+             <a  target="_blank" class="social-media" href="https://twitter.com/hussam0683">
               <i class="fa fa-twitter"></i>
                </a> 
-               <a target="_blank" class="social-media" href="https://wa.me/+249112400011">
+               <a  target="_blank" class="social-media" href="https://wa.me/+249112400011">
                 <i class="fa fa-whatsapp"></i>
                  </a> 
           </span>
@@ -289,8 +296,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="http://textillate.js.org/assets/jquery.lettering.js"></script>
+
+<script type="text/javascript" src="http://textillate.js.org/jquery.textillate.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+
 <script>
   $(document).ready(function(){
+
+                   new WOW().init();
+
+
+	$('.big-font-size').textillate();
+ 
   $('.work-slider').slick({
     autoplay: true,
   autoplaySpeed: 4000,
