@@ -9,6 +9,17 @@ body
 {
     background: #130f40 !important;
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+    color:#fff !important
+}
 .logo 
 {
     border:1px solid #FCBF49;
@@ -19,16 +30,23 @@ body
     font-size: 15px;
     border-bottom:6px solid #fff
 }
- 
+ .navbar-toggler .fa 
+ {
+     color:#fff;
+      font-size:28px;
+ }
 .navbar-light ,.navbar-light .navbar-nav .nav-link
 {
     color:#efefef;
     font-size: 15px;
 }
- 
 .navbar-light:hover
 {
     color:#efefef;
+}
+.nav-link-hove 
+{
+    border-bottom:1px solid transparent;
 }
 .nav-link-hover:hover
 {
@@ -50,14 +68,26 @@ body
     color:#FCBF49;;
 }
  /* end navbar */
+
  /* start intro */ 
 
  .intro 
  {
-     color:#fff
+     color:#fff;
+     background: #130f40;
  }
- .intro .big-font-size {font-size: 50px;}
-
+ .intro .big-font-size 
+ {
+     font-size: 50px;
+}
+.By-building 
+{
+    border-radius: 4px; background:#3a3b71
+}
+.Im-an-full-stack 
+{
+    line-height: 35px;
+}
 .intro .btn-warning
  {
      background:#FCBF49
@@ -65,29 +95,56 @@ body
  /* end intro */
 
  /* start about */
+
+ .about
+ {
+    background: #fff;
+ }
  .about .text 
  {
      line-height: 35px;
      
  }
-
  .about .university-link
  {
     color: #151641;
       text-decoration: none;
  }
+ .about .image img 
+ {
+     width: 240px;
+ }
  /* end about */
 
+ /* Start work */
+ .work
+ {
+    background: #FCBF49
+ }
+ .work .section-title 
+ {
+    background:#fff;color:#fcbf49
+ }
+/* end work */
+
+
 /* Start education */
- 
+ .cgpa .fa 
+ {
+    color: #151641;
+    font-size: 18px;
+ }
 /* end education */
 
- .section-title 
- {
-    background: #fcbf49;
-    padding: 4px;
-    color: #fff;
- }
+/* Start skills */
+.my-skills 
+{
+    background:#130f40 
+}
+.my-skill-list
+{
+    color:#fff;
+}
  .my-skill-list > p:before
  {
     content: "▹";
@@ -96,17 +153,31 @@ body
     color: #fff;
     font-size: var(--fz-sm);
     line-height: 25px;
-
  }
+
+ /* end skills */
 
 /* start contact me */
 .contact-me-submit-btn
 {
     background:#FCBF49;
     margin-top: 1rem!important;
-    margin-bottom: 1rem!important;
-     
-    
+    margin-bottom: 1rem!important;   
+}
+.note
+{
+ display: inline-block;
+}
+.note .fa 
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #151641;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
 }
 /*end contact me */
 
@@ -140,3 +211,34 @@ footer
     border-bottom: 6px solid #FCBF49;
 }
 /* end footer  */
+
+
+/* Start general elements */
+
+.section-title 
+{
+   background: #fcbf49;
+   padding: 4px;
+   color: #fff;
+}
+/* end general elements */
+@media only screen and (max-width:980px) {
+    .navbar-nav
+    {
+        margin-top: 23px;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+    {
+        color:#fff
+    }
+    .navbar-nav .nav-item 
+    {
+        margin-left: 0 !important;
+
+    }
+    .download-resume-btn
+{
+    border-bottom:none;
+   
+}
+  }
