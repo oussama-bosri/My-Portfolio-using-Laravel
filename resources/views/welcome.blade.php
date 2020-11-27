@@ -74,16 +74,16 @@
         <div class="p-4 ml-4 ">
               <p>Hi, my name is</p>
             <h1 class="big-font-size" data-in-effect="rollIn">Hussam Adil.</h1>
-            <div class="mt-4 p-1">
-                <span class="p-2 By-building" data-aos="fade-right">By building web applications Hope I can make the world better place for humans being 🙏 .</span>
+            <div class="mt-4 p-1 wow animate__slideInUp"   data-wow-duration="1s">
+                <span class="p-2 By-building wow animate__slideInUp"   data-wow-duration="1s">By building web applications Hope I can make the world better place for humans being 🙏 .</span>
             </div>
             <div class="mt-4 p-1">
-                <p class="Im-an-full-stack" data-aos="fade-up-right">
+                <p class="Im-an-full-stack wow animate__slideInUp"   data-wow-duration="1s">
                   I'm an full stack Web developer, with Bachelor of business degree .
                   but I'm  more passion about a computer science in general and web technologies specifically ,from Khartoum, Sudan.  
                 </p>
             </div>
-              <div class="mt-3 p-1 wow bounceInUp"  >
+              <div class="mt-3 p-1 wow animate__slideInUp"   data-wow-duration="1s" >
                   <a href="#" class="contact-mebtn btn btn-warning">Contact Me</a>
               </div>
         </div>
@@ -98,7 +98,7 @@
                     <span class="h3 section-title">About</span> 
                 </div>
             <div class="row mt-4 ">
-                <div class=" offset-1 col-sm-7 text " >
+                <div class=" offset-1 col-sm-7 text  wow animate__slideInUp"   data-wow-duration="1s" >
                       <p>
                           Hello! I'm Hussam, a software developer based in Sudan 🇸🇩.
 
@@ -110,8 +110,8 @@
                       </p>
                 </div>
                 <div class="col-sm-4 image text-center">
-                    <img  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="3s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
-                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInRight" data-wow-delay="3s">
+                    <img  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
+                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInRight" data-wow-delay="1s">
                       it's Me 👆
                     </p>  
                   </div>
@@ -168,7 +168,7 @@
               <span class="h3 section-title">Education</span>
           </div>
               <div class="row" >
-                <div class="col-sm-8 mt-3"  >
+                <div class="col-sm-8 mt-3 wow animate__slideInDown"  >
                     <p>
                       On October 2017  I graduated from Sudan international university, faculty of  management information system, its combination between IT and management.
                     </p>
@@ -183,7 +183,7 @@
                     </span>
                 </div>
                 <div class="col-sm-4" >
-                  <img class=" img-fluid" src="https://i.postimg.cc/Dz5THXwX/undraw-Graduation-ktn0-1.png">
+                  <img class=" img-fluid wow animate__jackInTheBox"  src="https://i.postimg.cc/Dz5THXwX/undraw-Graduation-ktn0-1.png">
                 </div>
               </div>
            </div>
@@ -202,12 +202,12 @@
                    <p class="mt-3 text-white">Here are a few technologies I've been working with recently:</p>
               </div>
                   <div class="row my-skill-list mt-4">    
-                         <p class=" mb-4 col-sm-4 ">PHP</p>
-                          <p class="mb-4  col-sm-4" >MYSQL</p>
-                          <p class="mb-4 col-sm-4" >LARAVEL</p>
-                          <p class=" col-sm-4"> HTML/CSS </p>
-                          <p class="col-sm-4">BOOTSTRAP</p>
-                          <p class=" col-sm-4">VUEJS</p>
+                         <p class=" mb-4 col-sm-4 wow animate__slideInDown">PHP</p>
+                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >MYSQL</p>
+                          <p class="mb-4 col-sm-4  wow animate__slideInDown" >LARAVEL</p>
+                          <p class=" col-sm-4  wow animate__slideInUp"> HTML/CSS </p>
+                          <p class="col-sm-4  wow animate__slideInUp">BOOTSTRAP</p>
+                          <p class=" col-sm-4  wow animate__slideInUp">VUEJS</p>
                     </div>
               </div>
              </div>
@@ -221,7 +221,7 @@
       <div class=" container p-4">
         <div class="mb-3 mt-3">
           <span class="h3 section-title">Contact Me</span>
-          <p class="mt-3 "> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          <p class="mt-3 contact-me-text" data-in-effect="rollIn"> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             <div class="row">
             <div class="offset-1 col-sm-6 mt-2" ata-aos="zoom-out-right"> 
             <form method="POST" action="{{url('sendemail/send')}}">
@@ -250,7 +250,7 @@
           <div class="col-sm-4 mt-2">
             <span>By scanning this QR-code you can contact me through Whatsapp directly. </span>
             <p class="mt-2 note"><i class="fa fa-info" ></i> Note :  Please using any QR-code scanning program. </p>
-            <img    class=" img-fluid" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
+            <img    class=" img-fluid  wow animate__slideInRight" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
         </div>
       </div>
           <div class=" mt-4 ">
@@ -275,14 +275,14 @@
         <div class="my-footer text-center text-white" >
           <span >Designed and built with lots of love. <i class="fa fa-heart"></i></span>
           <br><span>
-           <a  target="_blank" class="social-media" href="https://www.facebook.com/hussam0683/">
+           <a  target="_blank" class="social-media  wow animate__slideInRight" href="https://www.facebook.com/hussam0683/">
             <i class="fa fa-facebook"></i>
              </a> 
            
-             <a  target="_blank" class="social-media" href="https://twitter.com/hussam0683">
+             <a  target="_blank" class="social-media wow animate__slideInUp" href="https://twitter.com/hussam0683">
               <i class="fa fa-twitter"></i>
                </a> 
-               <a  target="_blank" class="social-media" href="https://wa.me/+249112400011">
+               <a  target="_blank" class="social-media wow animate__slideInLeft" href="https://wa.me/+249112400011">
                 <i class="fa fa-whatsapp"></i>
                  </a> 
           </span>
@@ -304,9 +304,32 @@
 <script>
   $(document).ready(function(){
 
-                   new WOW().init();
+    wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       45
+    }
+);
 
+wow.init();
 
+window.addEventListener('scroll', function(e) {
+
+if( $(window).scrollTop() <= 50) {
+    $('.wow').removeClass('animated');
+    $('.wow').removeAttr('style');
+    wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       45
+    }
+);
+
+wow.init();
+}
+});
+
+$('.contact-me-text').textillate();
 	$('.big-font-size').textillate();
  
   $('.work-slider').slick({
