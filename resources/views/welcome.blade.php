@@ -29,7 +29,7 @@
     <body>
     <!-- Start Nabbar -->
     <nav class="navbar navbar-expand-lg p-4   navbar-light bg-light">
-        <div class="container ">
+        <div class="container " id="pageContent">
         <a class="navbar-brand logo" href="#" > H</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-navicon"></i>
@@ -39,23 +39,23 @@
           <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item">
                 
-              <a class="nav-link nav-link-hover" href="#"><i class="mr-1  fa fa-user nav-icon " ></i>  About <span class="sr-only">(current)</span></a>
+              <a class="nav-link nav-link-hover" href="#about"><i class="mr-1  fa fa-user nav-icon " ></i>  About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover " href="#"><i class="nav-icon mr-1 fa fa-briefcase" aria-hidden="true"></i>
+              <a class="nav-link nav-link-hover " href="#work"><i class="nav-icon mr-1 fa fa-briefcase" aria-hidden="true"></i>
                 Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-hover " href="#"><i class="nav-icon mr-1 fa fa-book" aria-hidden="true"></i>
+              <a class="nav-link nav-link-hover " href="#education"><i class="nav-icon mr-1 fa fa-book" aria-hidden="true"></i>
                 Education</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link nav-link-hover" href="#"><i class="mr-1 fa fa-star nav-icon " ></i> Skills</a>
+              <a class="nav-link nav-link-hover" href="#skills"><i class="mr-1 fa fa-star nav-icon " ></i> Skills</a>
             </li>
              
               <li class="nav-item">
-                <a class="nav-link nav-link-hover " href="#"><i class="nav-icon mr-1 fa fa-envelope-open" aria-hidden="true"></i>
+                <a class="nav-link nav-link-hover " href="#contact-me"><i class="nav-icon mr-1 fa fa-envelope-open" aria-hidden="true"></i>
                   Contact</a>
               </li>
             <li class="nav-item ml-3 parent-download-resume-btn" >
@@ -69,6 +69,7 @@
       </nav>
       <!-- end navbar-->
        <!-- Start  intro-->
+
       <div class="intro">
         <div class="container p-3">
         <div class="p-4 ml-4 ">
@@ -84,7 +85,7 @@
                 </p>
             </div>
               <div class="mt-3 p-1 wow animate__slideInUp"   data-wow-duration="1s" >
-                  <a href="#" class="contact-mebtn btn btn-warning">Contact Me</a>
+                  <a href="#contact-me" class="contact-mebtn btn btn-warning">Contact Me</a>
               </div>
         </div>
       </div>
@@ -92,7 +93,7 @@
        <!-- end  intro-->
          <!-- start About -->
          
-         <div class="about mt-4 mb- p-2">
+         <div class="about mt-4 mb- p-2" id="about">
             <div class="  p-4 container">
                 <div class="mb-3">
                     <span class="h3 section-title">About</span> 
@@ -111,7 +112,7 @@
                 </div>
                 <div class="col-sm-4 image text-center">
                     <img  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
-                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInRight" data-wow-delay="1s">
+                    <p   class="mt-2 text-center   d-sm-block wow animate__fadeInLeft" data-wow-delay="1s">
                       it's Me 👆
                     </p>  
                   </div>
@@ -120,7 +121,7 @@
         </div>
            <!-- end  About-->
             <!-- start  work-->
-        <div class="work mt-2   p-2">
+        <div class="work mt-2   p-2" id="work">
             <div class=" p-4 container">
               <div class="mb-3">
                 <span class="h3 section-title  "  >Work</span> 
@@ -162,7 +163,7 @@
 
         <!-- end  education-->
 
-         <div class="education mt-4">
+         <div class="education mt-4" id="education">
            <div class=" container p-4">
             <div class="mb-3 mt-3">
               <span class="h3 section-title">Education</span>
@@ -195,7 +196,7 @@
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#130f40" fill-opacity="1" d="M0,96L24,122.7C48,149,96,203,144,202.7C192,203,240,149,288,117.3C336,85,384,75,432,112C480,149,528,235,576,234.7C624,235,672,149,720,133.3C768,117,816,171,864,197.3C912,224,960,224,1008,208C1056,192,1104,160,1152,170.7C1200,181,1248,235,1296,245.3C1344,256,1392,224,1416,208L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
 
-            <div class="my-skills">
+            <div class="my-skills" id="skills">
               <div class=" container p-4">
                <div class="mb-3  ">
                   <span class="h3 mb-3 mt-3 section-title">My Skills</span>
@@ -217,7 +218,7 @@
 
         <!-- start contact me  -->
 
-     <div class="contact-me">
+     <div class="contact-me" id="contact-me">
       <div class=" container p-4">
         <div class="mb-3 mt-3">
           <span class="h3 section-title">Contact Me</span>
@@ -250,14 +251,14 @@
           <div class="col-sm-4 mt-2">
             <span>By scanning this QR-code you can contact me through Whatsapp directly. </span>
             <p class="mt-2 note"><i class="fa fa-info" ></i> Note :  Please using any QR-code scanning program. </p>
-            <img    class=" img-fluid  wow animate__slideInRight" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
+            <img    class=" img-fluid  wow animate__slideInUp" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
         </div>
       </div>
           <div class=" mt-4 ">
             <div class="mb-3 mt-3">
               <span class="h3 section-title">My Location</span>
           </div>
-            <div>
+            <div >
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713293.93630849!2d30.497535229524164!3d14.822685900281384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d91cc41072b195%3A0xd2bf70462a612b37!2sSudan!5e0!3m2!1sen!2s!4v1606239934774!5m2!1sen!2s" width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>         
            </div>
           </div>
@@ -282,17 +283,19 @@
              <a  target="_blank" class="social-media wow animate__slideInUp" href="https://twitter.com/hussam0683">
               <i class="fa fa-twitter"></i>
                </a> 
-               <a  target="_blank" class="social-media wow animate__slideInLeft" href="https://wa.me/+249112400011">
+               <a  target="_blank" class="social-media wow animate__slideInDown" href="https://wa.me/+249112400011">
                 <i class="fa fa-whatsapp"></i>
                  </a> 
           </span>
+          <a href="#top" style="border: none" id="go-to-up" class=" social-media wow animate__slideInDown"  title="Go to top "><i class="fa fa-arrow-circle-o-up " aria-hidden="true"></i></a>
+
         </div>
       </footer>
 
         <!-- end footer   -->
 
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -300,19 +303,12 @@
 
 <script type="text/javascript" src="http://textillate.js.org/jquery.textillate.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
-
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://hsnaydd.github.io/moveTo/dist/moveTo.min.js"></script>
 <script>
   $(document).ready(function(){
 
-    wow = new WOW( {
-    boxClass:     'wow',
-    animateClass: 'animated',
-    offset:       45
-    }
-);
-
-wow.init();
-
+ 
 window.addEventListener('scroll', function(e) {
 
 if( $(window).scrollTop() <= 50) {
@@ -329,13 +325,63 @@ wow.init();
 }
 });
 
-$('.contact-me-text').textillate();
-	$('.big-font-size').textillate();
+
  
   $('.work-slider').slick({
     autoplay: true,
   autoplaySpeed: 4000,
   });
 });
+ 
+ // move to top
+
+ $("a[href='#top']").click(function() {
+  window.scroll({top: 0, behavior: "smooth"})
+  return false;
+});
+ 
+   // Add smooth scrolling to all links
+
+   $("a").on('click', function(event) {
+
+  if (this.hash !== "") {
+    
+    event.preventDefault();
+    
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 1800, function(){
+
+      });
+  } 
+});
+
+$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+$("body").css("overflow", "hidden");
+$(window).on('load', function(){
+  
+  setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
+  
+});
+function removeLoader(){
+  $('.contact-me-text').textillate();
+	$('.big-font-size').textillate();
+  $("body").css("overflow-y", "scroll");
+  wow = new WOW( {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       45
+    }
+);
+
+wow.init();
+    $( "#loadingDiv" ).fadeOut(500, function() {
+      // fadeOut complete. Remove the loading div
+      $( "#loadingDiv" ).remove(); 
+     
+       
+  });  
+}
 </script>
 </html>
