@@ -225,7 +225,7 @@
           <p class="mt-3 contact-me-text" data-in-effect="rollIn"> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             <div class="row">
             <div class="offset-1 col-sm-6 mt-2"> 
-            <form method="POST" action="{{url('sendemail/send')}}">
+            <form method="POST" action="{{url('contact')}}">
                 {{ csrf_field() }}
                 @if ($message = Session::get('success'))
               <div class="alert alert-success alert-block">
