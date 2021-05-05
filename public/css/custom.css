@@ -1,4 +1,4 @@
-body
+ body
 {
     font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
@@ -179,7 +179,7 @@ body
     line-height: 20px;
     color: white;
 }
-}
+ 
 /*end contact me */
 
 /* start footer  */
@@ -189,8 +189,10 @@ footer
 }
 .my-footer 
 {
+   height: 140px;
     margin-bottom: 0;
-    background-color: #151641;;
+    background-color: #151641;
+    padding-top:5px
 }
 
 .social-media
@@ -213,7 +215,13 @@ footer
 }
 /* end footer  */
 
-
+/* start google-map */
+.google-map
+{
+    height:350px;
+    border:0 !important;
+}
+/* end google-map */
 /* Start general elements */
 
 .section-title 
@@ -247,11 +255,8 @@ footer
   border-right: 1.1em solid rgba(255, 255, 255, 0.2);
   border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
   border-left: 1.1em solid #151641;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation: load8 1.1s infinite linear;
-  animation: load8 1.1s infinite linear;
+   transform: translateZ(0);
+   animation: load8 1.1s infinite linear;
 }
 @-webkit-keyframes load8 {
   0% {
@@ -273,14 +278,15 @@ footer
     transform: rotate(360deg);
   }
 }
-        #loadingDiv {
-            position:absolute;;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            background-color:#FCBF49;
-        }
+ #loadingDiv 
+ {
+     position:absolute;;
+     top:0;
+     left:0;
+     width:100%;
+    height:100%;
+     background-color:#FCBF49;
+   }
  
 /* end general elements */
 @media only screen and (max-width:980px) {
