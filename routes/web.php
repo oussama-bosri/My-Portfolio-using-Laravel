@@ -4,6 +4,6 @@ Route::view('/', 'welcome');
   
 // contact by email
 
-Route::post('contact', 'ContactlController@sendEmail');
+Route::post('contact', 'ContactController@sendEmail');
 
  

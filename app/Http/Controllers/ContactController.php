@@ -7,7 +7,7 @@ use App\Http\Requests\Contact\StoreRequest;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\sendingEmail;
 
-class ContactlController extends Controller
+class ContactController extends Controller
 {
     function sendEmail(StoreRequest $request)
     {
