@@ -59,7 +59,7 @@
                   Contact</a>
               </li>
             <li class="nav-item ml-3 parent-download-resume-btn" >
-                <a class="nav-link download-resume-btn" href="https://pdfhost.io/v/Or1L7Kruf_Hussam_Adil_CV_Developer_0112400011pdf.pdf" target="_blank"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
+                <a class="nav-link download-resume-btn" href="https://pdfhost.io/v/qDV5uPYng_Hussamadilcvpdf.pdf" target="_blank"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
                     My Resume</a>
               </li>
           </ul>
