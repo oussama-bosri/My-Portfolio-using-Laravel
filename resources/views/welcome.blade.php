@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hussam Adil , full stack Web developer </title>
-        <meta name="description" content="Hussam Adil , full stack Web developer  مبرمج مواقع و  تطبيقات الويب"    >
+        <title>Oussama Bosri , full stack Web developer </title>
+        <meta name="description" content="OUSSAMA BOSRI , full stack Web developer  مبرمج مواقع و  تطبيقات الويب"    >
         <meta name="keywords" content="web developer , مصمم ,مبرمج مواقع , مطور مواقع , مبرمج ويب ,مطور تطبيقات الويب ,مبرمج تطبيقات الويب ,">
-        <meta name="author" content="Hussam Adil">
+        <meta name="author" content="Oussama Bosri">
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -74,7 +74,7 @@
         <div class="container p-3">
         <div class="p-4 ml-4 ">
               <p>Hi, my name is</p>
-            <h1 class="big-font-size" data-in-effect="rollIn">Hussam Adil.</h1>
+            <h1 class="big-font-size" data-in-effect="rollIn">BOSRI OUSSAMA.</h1>
             <div class="mt-4 p-1 wow animate__slideInUp"   data-wow-duration="1s">
                 <span class="p-2 By-building wow animate__slideInUp"   data-wow-duration="1s">By building web applications, I hope I can make the world a better place for human beings 🙏 .</span>
             </div>
@@ -101,17 +101,17 @@
             <div class="row mt-4 ">
                 <div class=" offset-1 col-sm-7 text  wow animate__slideInUp"   data-wow-duration="1s" >
                       <p>
-                          Hello! I'm Hussam, a software developer based in Sudan 🇸🇩.
+                          Hello! I'm Oussama, a software developer based in Algeria.
 
                       I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.</p>
                       <p> 
                       My goal is to always build products that provide pixel-perfect, performant experiences.
 
-                      I graduated from <a  target="_blank" class="university-link" href="https://www.siu-sd.com/">Sudan international University</a>.
+                      I graduated from <a  target="_blank" class="university-link" href="https://www.siu-sd.com/">Ibn khaldoun University Tiaret</a>.
                       </p>
                 </div>
                 <div class="col-sm-4 image text-center">
-                    <img alt="Hussam Adil image"  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="https://i.stack.imgur.com/zYENw.png?s=328&g=1">
+                    <img alt="Hussam Adil image"  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="{{ asset('images/landing-page/imgprofile.jpg')  }}">
                     <p   class="mt-2 text-center   d-sm-block wow animate__fadeInLeft" data-wow-delay="1s">
                       it's Me 👆
                     </p>  
@@ -208,7 +208,7 @@
                           <p class="mb-4 col-sm-4  wow animate__slideInDown" >LARAVEL</p>
                           <p class=" col-sm-4  wow animate__slideInUp"> HTML/CSS </p>
                           <p class="col-sm-4  wow animate__slideInUp">BOOTSTRAP</p>
-                          <p class=" col-sm-4  wow animate__slideInUp">VUEJS</p>
+                          <!-- <p class=" col-sm-4  wow animate__slideInUp">VUEJS</p> -->
                     </div>
               </div>
              </div>
@@ -280,14 +280,14 @@
           <br>
           <div class="wow animate__slideInUp" > 
           <span >
-           <a  target="_blank" class="social-media   " href="https://www.facebook.com/hussam0683/">
+           <a  target="_blank" class="social-media   " href="https://www.facebook.com/oussama1geek">
             <i class="fa fa-facebook"></i>
              </a> 
            
-             <a  target="_blank" class="social-media  " href="https://twitter.com/hussam0683">
+             <a  target="_blank" class="social-media  " href="https://twitter.com/oussamabosri">
               <i class="fa fa-twitter"></i>
                </a> 
-               <a  target="_blank" class="social-media  " href="https://wa.me/+249112400011">
+               <a  target="_blank" class="social-media  " href="https://wa.me/+213673035077">
                 <i class="fa fa-whatsapp"></i>
                  </a> 
                  <a href="#top" style="border: none" id="go-to-up" class=" social-media " title="Go to top "><i class="fa fa-arrow-circle-o-up " aria-hidden="true"></i></a>
