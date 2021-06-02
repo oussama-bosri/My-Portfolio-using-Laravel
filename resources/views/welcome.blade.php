@@ -255,7 +255,7 @@
           <div class="col-sm-4 mt-2">
             <span>By scanning this QR-code you can contact me through Whatsapp directly. </span>
             <p class="mt-2 note"><i class="fa fa-info" ></i> Note :  Please using any QR-code scanning program. </p>
-            <img   alt="qrcode to contact me using whatsapp "  class=" img-fluid  wow animate__slideInUp" src="https://i.postimg.cc/NjYvMB0c/qr-code.png">
+            <img   alt="qrcode to contact me using whatsapp "  class=" img-fluid  wow animate__slideInUp" src="{{ asset('images/landing-page/whatsapp.png')  }}">
         </div>
       </div>
           <div class=" mt-4 ">
