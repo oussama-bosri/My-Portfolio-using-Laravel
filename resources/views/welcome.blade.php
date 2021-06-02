@@ -41,10 +41,10 @@
                 
               <a class="nav-link nav-link-hover" href="#about"><i class="mr-1  fa fa-user nav-icon " ></i>  About <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+<!--             <li class="nav-item">
               <a class="nav-link nav-link-hover " href="#work"><i class="nav-icon mr-1 fa fa-briefcase" aria-hidden="true"></i>
                 Work</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link nav-link-hover " href="#education"><i class="nav-icon mr-1 fa fa-book" aria-hidden="true"></i>
                 Education</a>
@@ -59,10 +59,14 @@
                   Contact</a>
               </li>
             <li class="nav-item ml-3 parent-download-resume-btn" >
+                <a class="nav-link download-resume-btn" href="https://oussamabosricvpdf.pdf" target="_blank"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
+                    My Resume</a>
+              <!-- </li>
+              <li class="nav-item ml-3 parent-download-resume-btn" >
                 <a class="nav-link download-resume-btn" href="https://pdfhost.io/v/qDV5uPYng_Hussamadilcvpdf.pdf" target="_blank"><i class="mr-1 fa fa-arrow-circle-down" aria-hidden="true"></i>
                     My Resume</a>
               </li>
-          </ul>
+          </ul> -->
           
         </div>
     </div>
@@ -121,7 +125,7 @@
         </div>
            <!-- end  About-->
             <!-- start  work-->
-            <div class="work mt-2   p-2" id="work">
+<!--             <div class="work mt-2   p-2" id="work">
               <div class=" p-4 container">
                 <div class="mb-3">
                   <span class="h3 section-title  "  >Work</span> 
@@ -157,7 +161,7 @@
                   </div>
               </div>
               </div>
-            </div>
+            </div> -->
 
         <!-- end  work-->
 
@@ -280,8 +284,14 @@
           <br>
           <div class="wow animate__slideInUp" > 
           <span >
+          <a  target="_blank" class="social-media   " href="https://github.com/OUSSAMABOSRI">
+          <i class="fa fa-github" aria-hidden="true"></i>
+             </a> 
            <a  target="_blank" class="social-media   " href="https://www.facebook.com/oussama1geek">
             <i class="fa fa-facebook"></i>
+             </a> 
+             <a  target="_blank" class="social-media   " href="https://www.linkedin.com/in/bosri-oussama/">
+             <i class="fa fa-linkedin" aria-hidden="true"></i>
              </a> 
            
              <a  target="_blank" class="social-media  " href="https://twitter.com/oussamabosri">
