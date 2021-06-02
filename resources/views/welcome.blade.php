@@ -207,11 +207,11 @@
                    <p class="mt-3 text-white">Here are a few technologies I've been working with recently:</p>
               </div>
                   <div class="row my-skill-list mt-4">    
-                         <p class=" mb-4 col-sm-4 wow animate__slideInDown">PHP</p>
-                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >MYSQL</p>
-                          <p class="mb-4 col-sm-4  wow animate__slideInDown" >LARAVEL</p>
+                         <p class=" mb-4 col-sm-4 wow animate__slideInDown">LARAVEL</p>
+                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >NodeJS</p>
                           <p class=" col-sm-4  wow animate__slideInUp"> HTML/CSS </p>
                           <p class="col-sm-4  wow animate__slideInUp">BOOTSTRAP</p>
+                          <p class="mb-4 col-sm-4  wow animate__slideInDown" >MySql</p>
                           <!-- <p class=" col-sm-4  wow animate__slideInUp">VUEJS</p> -->
                     </div>
               </div>
