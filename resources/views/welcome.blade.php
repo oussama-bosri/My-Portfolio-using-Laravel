@@ -30,7 +30,7 @@
     <!-- Start Nabbar -->
     <nav class="navbar navbar-expand-lg p-4   navbar-light bg-light">
         <div class="container " id="pageContent">
-        <a class="navbar-brand logo" href="#" > H</a>
+        <!-- <a class="navbar-brand logo" href="#" > H</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-navicon"></i>
         </button>
