@@ -263,8 +263,8 @@
               <span class="h3 section-title">My Location</span>
           </div>
             <div >
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="395" id="gmap_canvas" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net">get google map link</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:395px;width:1080px;}</style></div></div>
-            <!-- <iframe class="col-sm-12 google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713293.93630849!2d30.497535229524164!3d14.822685900281384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15d91cc41072b195%3A0xd2bf70462a612b37!2sSudan!5e0!3m2!1sen!2s!4v1606239934774!5m2!1sen!2s"   allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>          -->
+            <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="395" id="gmap_canvas" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net">get google map link</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:395px;width:1080px;}</style></div></div> -->
+            <iframe class="col-sm-12 google-map" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net"   allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>         
            </div>
           </div>
       </div>
