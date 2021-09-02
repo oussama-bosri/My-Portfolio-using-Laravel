@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Oussama Bosri , full stack Web developer </title>
-        <meta name="description" content="OUSSAMA BOSRI , full stack Web developer  مبرمج مواقع و  تطبيقات الويب"    >
+        <meta name="description" content="OUSSAMA BOSRI , Full-stack Software Engineer  مبرمج مواقع و  تطبيقات الويب"    >
         <meta name="keywords" content="web developer , مصمم ,مبرمج مواقع , مطور مواقع , مبرمج ويب ,مطور تطبيقات الويب ,مبرمج تطبيقات الويب ,">
         <meta name="author" content="Oussama Bosri">
         <!-- Fonts -->
@@ -84,7 +84,7 @@
             </div>
             <div class="mt-4 p-1">
                 <p class="Im-an-full-stack wow animate__slideInUp"   data-wow-duration="1s">
-                I'm a full stack Web developer, with Master of computer science degree . 
+                I'm a Full-stack Software Engineer, with Master of computer science degree . 
                 I'm passion about computer science in general and web technologies specifically.  
                 </p>
             </div>
@@ -104,14 +104,13 @@
                 </div>
             <div class="row mt-4 ">
                 <div class=" offset-1 col-sm-7 text  wow animate__slideInUp"   data-wow-duration="1s" >
-                      <p>
-                          Hello! I'm Oussama, a software developer based in Algeria.
-
+                      <p>HI THERE! I'm Oussama</p>
+                      </p> I'm an IT engineer & Web Developer. I am very passionate about starting my career and giving the best rate that i can.</p>
                       I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.</p>
                       <p> 
                       My goal is to always build products that provide pixel-perfect, performant experiences.
 
-                      I graduated from <a  target="_blank" class="university-link" href="https://www.siu-sd.com/">Ibn khaldoun University Tiaret</a>.
+                     <a  target="_blank" class="university-link" href="https://www.siu-sd.com/"></a>.
                       </p>
                 </div>
                 <div class="col-sm-4 image text-center">
@@ -122,6 +121,7 @@
                   </div>
             </div>
          </div>
+         
         </div>
            <!-- end  About-->
             <!-- start  work-->
@@ -175,17 +175,14 @@
               <div class="row" >
                 <div class="col-sm-8 mt-3 wow animate__slideInDown"  >
                     <p>
-                      On October 2017  I graduated from Sudan international university, faculty of  management information system, its combination between IT and management.
-                    </p>
-                    <p>
-                      At college, I learned about business and accounting and marketing, and a lot of cool stuff there.
+                    On july 2018 I graduated from ibn khaldoun university of tiaret IT department.
                     </p>
                     <p>
                       my specialization gives me the ability to think about your project from different points of view, the business one and technical view as well.
                     </p>
-                    <span class="cgpa p-1">
+<!--                     <span class="cgpa p-1">
                       <i class=" fa fa-check-square"></i> CGPA : 3.48 out of 4.00
-                    </span>
+                    </span> -->
                 </div>
                 <div class="col-sm-4" >
                   <img alt="graduation hat"  class=" img-fluid wow animate__jackInTheBox"  src="https://i.postimg.cc/Dz5THXwX/undraw-Graduation-ktn0-1.png">
