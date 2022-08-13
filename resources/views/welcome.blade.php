@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('css/custom.css')}}">
           <!-- slider -->
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
 
          <!-- text animations. -->
@@ -34,11 +34,11 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-navicon"></i>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item">
-                
+
               <a class="nav-link nav-link-hover" href="#about"><i class="mr-1  fa fa-user nav-icon " ></i>  About <span class="sr-only">(current)</span></a>
             </li>
 <!--             <li class="nav-item">
@@ -53,7 +53,7 @@
             <li class="nav-item">
               <a class="nav-link nav-link-hover" href="#skills"><i class="mr-1 fa fa-star nav-icon " ></i> Skills</a>
             </li>
-             
+
               <li class="nav-item">
                 <a class="nav-link nav-link-hover " href="#contact-me"><i class="nav-icon mr-1 fa fa-envelope-open" aria-hidden="true"></i>
                   Contact</a>
@@ -67,7 +67,7 @@
                     My Resume</a>
               </li>
           </ul> -->
-          
+
         </div>
     </div>
       </nav>
@@ -84,8 +84,8 @@
             </div>
             <div class="mt-4 p-1">
                 <p class="Im-an-full-stack wow animate__slideInUp"   data-wow-duration="1s">
-                I'm a Full-stack Software Engineer, with Master of computer science degree . 
-                I'm passion about computer science in general and web technologies specifically.  
+                I'm a Full-stack Software Engineer, with Master of computer science degree .
+                I'm passion about computer science in general and web technologies specifically.
                 </p>
             </div>
               <div class="mt-3 p-1 wow animate__slideInUp"   data-wow-duration="1s" >
@@ -96,18 +96,18 @@
     </div>
        <!-- end  intro-->
          <!-- start About -->
-         
+
          <div class="about mt-4 mb- p-2" id="about">
             <div class="  p-4 container">
                 <div class="mb-3">
-                    <span class="h3 section-title">About</span> 
+                    <span class="h3 section-title">About</span>
                 </div>
             <div class="row mt-4 ">
                 <div class=" offset-1 col-sm-7 text  wow animate__slideInUp"   data-wow-duration="1s" >
                       <p>HI THERE! I'm Oussama</p>
                       </p> I'm an IT engineer & Web Developer. I am very passionate about starting my career and giving the best rate that i can.</p>
                       I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.</p>
-                      <p> 
+                      <p>
                       My goal is to always build products that provide pixel-perfect, performant experiences.
 
                      <a  target="_blank" class="university-link" href="https://www.siu-sd.com/"></a>.
@@ -117,28 +117,28 @@
                     <img alt="Hussam Adil image"  class="text-center  img-thumbnail  wow animate__fadeInDown" data-wow-delay="1s" src="{{ asset('images/landing-page/imgprofile.jpg')  }}">
                     <p   class="mt-2 text-center   d-sm-block wow animate__fadeInLeft" data-wow-delay="1s">
                       it's Me 👆
-                    </p>  
+                    </p>
                   </div>
             </div>
          </div>
-         
+
         </div>
            <!-- end  About-->
             <!-- start  work-->
 <!--             <div class="work mt-2   p-2" id="work">
               <div class=" p-4 container">
                 <div class="mb-3">
-                  <span class="h3 section-title  "  >Work</span> 
+                  <span class="h3 section-title  "  >Work</span>
                   <p class=" mt-3 wow animate__fadeInDown" data-wow-delay="1s">Below you can see some projects I've been working on lately.</p>
                   <div class="work-slider text-center mt-4 wow animate__fadeInUp" data-wow-delay="1s">
                     <div>
-                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-20-19-28-38.png')  }}"  > 
-                    </div> 
-                    <div>
-                      <img alt="work-image" class="  img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-41-35.png')  }}"  > 
+                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-20-19-28-38.png')  }}"  >
                     </div>
-                    <div> 
-                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-03-23-12-47-15.png')  }}">  
+                    <div>
+                      <img alt="work-image" class="  img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-41-35.png')  }}"  >
+                    </div>
+                    <div>
+                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-03-23-12-47-15.png')  }}">
                     </div>
                       <div>
                         <img alt="work-image"  class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-20-19-29-52.png')  }}"  >
@@ -150,13 +150,13 @@
                         <img alt="work-image" class="  img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-14-19.png')  }}"  >
                       </div>
                       <div>
-                        <img alt="work-image" class="img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-20-40.png')  }}"  > 
+                        <img alt="work-image" class="img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-20-40.png')  }}"  >
                       </div>
                       <div>
                         <img  alt="work-image" class="img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-21-29.png')  }}"  >
                       </div>
                      <div>
-                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-33-00.png')  }}"  > 
+                      <img alt="work-image" class=" img-thumbnail" src="{{ asset('images/landing-page/Screenshot-from-2020-11-22-21-33-00.png')  }}"  >
                     </div>
                   </div>
               </div>
@@ -203,18 +203,18 @@
                   <span class="h3 mb-3 mt-3 section-title">My Skills</span>
                    <p class="mt-3 text-white">Here are a few technologies I've been working with recently:</p>
               </div>
-                  <div class="row my-skill-list mt-4">    
-                         <p class=" mb-4 col-sm-4 wow animate__slideInDown">LARAVEL</p>
-                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >NodeJS</p>
-                          <p class=" col-sm-4  wow animate__slideInUp"> HTML/CSS </p>
-                          <p class="col-sm-4  wow animate__slideInUp">BOOTSTRAP</p>
-                          <p class="mb-4 col-sm-4  wow animate__slideInDown" >MySql</p>
+                  <div class="row my-skill-list mt-4">
+                         <p class=" mb-4 col-sm-4 wow animate__slideInDown">Laravel,WordPress</p>
+                          <p class="mb-4  col-sm-4  wow animate__slideInDown" >Azure,AWS,Heroku</p>
+                          <p class=" col-sm-4  wow animate__slideInUp">Bootstrap,HTML/CSS </p>
+                          <p class="col-sm-4  wow animate__slideInUp">Adobe Photoshop,Illustrator</p>
+                          <p class="mb-4 col-sm-4  wow animate__slideInDown" >MySql,SQL Server</p>
                           <!-- <p class=" col-sm-4  wow animate__slideInUp">VUEJS</p> -->
                     </div>
               </div>
              </div>
              <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#130f40" fill-opacity="1" d="M0,64L30,106.7C60,149,120,235,180,240C240,245,300,171,360,138.7C420,107,480,117,540,117.3C600,117,660,107,720,90.7C780,75,840,53,900,74.7C960,96,1020,160,1080,186.7C1140,213,1200,203,1260,176C1320,149,1380,107,1410,85.3L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>             <!-- end my-skills -->
-   
+
          <!-- end my-skills -->
 
         <!-- start contact me  -->
@@ -225,7 +225,7 @@
           <span class="h3 section-title">Contact Me</span>
           <p class="mt-3 contact-me-text" data-in-effect="rollIn"> My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
             <div class="row">
-            <div class="offset-1 col-sm-6 mt-2"> 
+            <div class="offset-1 col-sm-6 mt-2">
             <form method="POST" action="{{route('sendEmail')}}">
                 {{ csrf_field() }}
                 @if ($message = Session::get('success'))
@@ -261,7 +261,7 @@
           </div>
             <div >
             <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="395" id="gmap_canvas" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net">get google map link</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:395px;width:1080px;}</style></div></div> -->
-            <iframe class="col-sm-12 google-map" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net"   allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>         
+            <iframe class="col-sm-12 google-map" src="https://maps.google.com/maps?q=Ben%20aknoun&t=&z=7&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:395px;width:1080px;}</style><a href="https://www.embedgooglemap.net"   allowfullscreen="" aria-hidden="false"   tabindex="0"></iframe>
            </div>
           </div>
       </div>
@@ -269,46 +269,46 @@
      </div>
 
        <!-- end contact me  -->
-   
+
        <!-- start footer   -->
 
       <footer>
         <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#130f40" fill-opacity="1" d="M0,64L26.7,106.7C53.3,149,107,235,160,272C213.3,309,267,299,320,266.7C373.3,235,427,181,480,160C533.3,139,587,149,640,149.3C693.3,149,747,139,800,144C853.3,149,907,171,960,186.7C1013.3,203,1067,213,1120,213.3C1173.3,213,1227,203,1280,181.3C1333.3,160,1387,128,1413,112L1440,96L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
-        </svg>      
+        </svg>
         <div class="my-footer text-center text-white"  id='footerlink' >
           <span style="" >Designed and built with lots of love. <i class="fa fa-heart"></i></span>
-          
+
           <br>
-          <div class="wow animate__slideInUp" > 
+          <div class="wow animate__slideInUp" >
           <span >
-          <a  target="_blank" class="social-media   " href="https://github.com/OUSSAMABOSRI">
+          <a  target="_blank" class="social-media   " href="https://github.com/oussama-bosri">
           <i class="fa fa-github" aria-hidden="true"></i>
-             </a> 
-           <a  target="_blank" class="social-media   " href="https://www.facebook.com/oussama1geek">
+             </a>
+           <a  target="_blank" class="social-media   " href="https://www.facebook.com/oussama.bosri">
             <i class="fa fa-facebook"></i>
-             </a> 
+             </a>
              <a  target="_blank" class="social-media   " href="https://www.linkedin.com/in/bosri-oussama/">
              <i class="fa fa-linkedin" aria-hidden="true"></i>
-             </a> 
-           
+             </a>
+
              <a  target="_blank" class="social-media  " href="https://twitter.com/oussamabosri">
               <i class="fa fa-twitter"></i>
-               </a> 
+               </a>
                <a  target="_blank" class="social-media  " href="https://wa.me/+213673035077">
                 <i class="fa fa-whatsapp"></i>
-                 </a> 
+                 </a>
                  <a href="#top" style="border: none" id="go-to-up" class=" social-media " title="Go to top "><i class="fa fa-arrow-circle-o-up " aria-hidden="true"></i></a>
           </span>
           </div>
-          
+
 
         </div>
       </footer>
 
         <!-- end footer   -->
 
-   
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
