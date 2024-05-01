@@ -44,4 +44,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-# Centres-de-repos
